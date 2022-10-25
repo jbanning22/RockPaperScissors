@@ -1,0 +1,44 @@
+.box {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+}
+.blue {
+  background: lightblue;
+}
+.container {
+  flex-direction: column;
+  border: 1px solid black;
+  width: 700px;
+  height: 700px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images {
+    border: 1px solid black;
+
+    flex-direction: row;
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items:center;
+}
+button {
+        height: 40px;
+        width: 60px;
+        margin: 20px;
+
+
+}
+p {
+   font-size: 25px;
+   color: burlywood;   
+   font-weight: bold;  
+   font-family: monospace;
+}
