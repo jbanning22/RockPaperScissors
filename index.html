@@ -5,27 +5,38 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <link rel="stylesheet" href="index.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://kit.fontawesome.com/e391ce7786.js" crossorigin="anonymous"></script>
+        <script src="index.js"></script>
         <title>RockPaperScissors</title>
     </head>
     <body>
         <div class="parentContainer center">
             <div class="container center">
 
-                <h1>Rock Paper Scissors Game</h1>
+                <h1>Rock Paper Scissors</h1>
 
                 <h2>Choose your move below.</h2>
 
                 <div class="images">
-                    <div class="blue box">Player 1</div>
-                    <p id="results">And the winner is...</p>
-                    <div class="blue box">Computer</div>
+
+                    <div class="left box">
+                        <div class="blue box">P1</div>
+                        <div class="blue box" id="P1"></div>
+                    </div>
+
+                    <p class="iWin" id="result">And the winner is...</p>
+
+                    <div class="right box">
+                        <div class="blue box">Computer</div>
+                        <div class="blue box" id="computer"></div>
+                    </div>
 
                 </div>
 
-                <div class="buttons center">
-                    <button type="button">Rock</button>
-                    <button type="button">Paper</button>
-                    <button type="button">Scissors</button>
+                <div class="buttons center choice">
+                    <button onclick="selection1()" type="button" class="fas fa-hand-rock" id="rock"></button>
+                    <button onclick="selection2()" type="button" class="fas fa-hand-paper" id="paper"></button>
+                    <button onclick="selection3()" type="button" class="fas fa-hand-scissors" id="scissors"></button>
                 </div>
 
             </div>
