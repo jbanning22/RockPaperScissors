@@ -1,13 +1,11 @@
 .box {
     width: 150px;
     height: 150px;
-    border: 1px solid black;
-    padding: 10px;
-    margin: 0;
     text-align: center;
 }
 .blue {
-    background: lightgray;
+    background: orange;
+    font-family: Impact;
 }
 .container {
     flex-direction: column;
@@ -19,9 +17,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
 }
 .images {
-    border: 1px solid black;
     flex-direction: row;
     display: flex;
     width: 100%;
@@ -29,12 +27,12 @@
     align-items: center;
 }
 button {
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
     margin: 20px;
     font-size: 33px;
     color: cornflowerblue;
-    background-color: peachpuff;
+    background-color: orange;
     border-radius: 50%;
 }
 button:hover {
@@ -55,9 +53,8 @@ p {
         align-items: center;
         width: 150px;
         height: 150px;
-        border: 1px solid black;
-        padding: 10px;
         margin: 0px;
+        background-color: orange;
 }
 
 .left {
@@ -73,8 +70,12 @@ p {
 }
 h2 {
     color: gray;
+    font-family: Impact;
 }
-
+h1 {
+    color: cornsilk;
+    font-family: Impact;
+}
 .cpu {
     color: red;
     font-size: 33px;
@@ -83,7 +84,6 @@ h2 {
     align-items: center;
     width: 150px;
     height: 150px;
-    border: 1px solid black;
-    padding: 10px;
     margin: 0px;
+    background-color: orange;
 }

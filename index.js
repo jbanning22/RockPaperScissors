@@ -50,31 +50,31 @@ function gameCode(P1, computer) {
     const winning = document.getElementById("result");
     if (P1 === "paper") {
         if (computer === "rock") {
-            winning.innerHTML = "paper wins";
+            winning.innerHTML = "You win!";
         } else if (computer === "scissors") {
-            winning.innerHTML = "scissors wins";
+            winning.innerHTML = "CPU wins!";
         } else {
-            winning.innerHTML = "It's a tie!";
+            winning.innerHTML = "It's a draw!";
         }
     }
 
     if (P1 === "scissors") {
         if (computer === "rock") {
-            winning.innerHTML = "rock wins";
+            winning.innerHTML = "CPU wins!";
         } else if (computer === "paper") {
-            winning.innerHTML = "scissors wins";
+            winning.innerHTML = "You win!";
         } else {
-            winning.innerHTML = "It's a tie!";
+            winning.innerHTML = "It's a draw!";
         }
     }
 
     if (P1 === "rock") {
         if (computer === "scissors") {
-            winning.innerHTML = "rock wins";
+            winning.innerHTML = "You win!";
         } else if (computer === "paper") {
-            winning.innerHTML = "paper wins";
+            winning.innerHTML = "CPU wins!";
         } else {
-            winning.innerHTML = "It's a tie!";
+            winning.innerHTML = "It's a draw!";
         }
     }
 }
@@ -89,32 +89,10 @@ function getComputerChoice() {
         return "scissors";
     }
 }
-//   function getWinner(p, c) {
-//     if (p === c) {
-//       return 'draw';
-//     } else if (p === 'rock') {
-//       if (c === 'paper') {
-//         return 'computer';
-//       } else {
-//         return 'player';
-//       }
-//     } else if (p === 'paper') {
-//       if (c === 'scissors') {
-//         return 'computer';
-//       } else {
-//         return 'player';
-//       }
-//     } else if (p === 'scissors') {
-//       if (c === 'rock') {
-//         return 'computer';
-//       } else {
-//         return 'player';
-//       }
+
+// function youWin() {
+//     if ((winning.innerHTML = "You win!")) {
+//         text.style.color = "red";
+
 //     }
-//   }
-// // function play(e) {
-// //     const playerChoice = e.target.id;
-// //     const computerChoice = getComputerChoice();
-// //     const winner = getWinner(playerChoice, computerChoice);
-// //     showWinner(winner, computerChoice);
-// }
+// } 
