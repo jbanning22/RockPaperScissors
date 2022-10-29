@@ -89,10 +89,3 @@ function getComputerChoice() {
         return "scissors";
     }
 }
-
-// function youWin() {
-//     if ((winning.innerHTML = "You win!")) {
-//         text.style.color = "red";
-
-//     }
-// } 
